@@ -7,7 +7,7 @@ return drivers.slice(-2)
 
  }
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
-//this one is confusing
+
 const createFareMultiplier = function(integer) {
 return function(multiply){
   return integer*multiply }
@@ -19,4 +19,4 @@ const fareTripler = createFareMultiplier(3)
  const fetchSpecifiedDrivers = function (drivers,theDrivers){
 return theDrivers(drivers)
 
- } 
+ }
